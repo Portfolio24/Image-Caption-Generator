@@ -5,13 +5,13 @@ This project implements an end-to-end image captioning system that automatically
 
 🧠 Architecture
 
-Encoder: Pre-trained VGG16 CNN used to extract high-level visual features from images
+- Encoder: Pre-trained VGG16 CNN used to extract high-level visual features from images
 
-Decoder: LSTM-based sequence model to generate captions word-by-word
+- Decoder: LSTM-based sequence model to generate captions word-by-word
 
-Training Strategy: Teacher forcing for stable and faster convergence
+- Training Strategy: Teacher forcing for stable and faster convergence
 
-Inference Optimization: Top-k sampling to reduce repetitive and generic captions
+- Inference Optimization: Top-k sampling to reduce repetitive and generic captions
 
 📊 Evaluation
 
@@ -19,23 +19,23 @@ Model performance is evaluated using BLEU scores (BLEU-1 to BLEU-4) along with q
 
 ⚠️ Limitations
 
-Limited recognition of complex or dynamic actions
+- Limited recognition of complex or dynamic actions
 
-Inaccurate object counting due to lack of explicit detection mechanisms
+- Inaccurate object counting due to lack of explicit detection mechanisms
 
-No attention mechanism, leading to reduced region-specific focus
+- No attention mechanism, leading to reduced region-specific focus
 
-Dataset bias affecting caption diversity and higher-order BLEU scores
+- Dataset bias affecting caption diversity and higher-order BLEU scores
 
 🚀 Future Enhancements
 
-Integrate attention mechanisms for improved visual focus
+- Integrate attention mechanisms for improved visual focus
 
-Replace LSTM with Transformer-based decoders
+- Replace LSTM with Transformer-based decoders
 
-Explore multimodal models such as ViT, CLIP, or vision–language transformers
+- Explore multimodal models such as ViT, CLIP, or vision–language transformers
 
-Incorporate object detection to improve counting accuracy
+- Incorporate object detection to improve counting accuracy
 
 🛠️ Tech Stack
 
