@@ -1,9 +1,9 @@
 # Image Captioning System using CNN–LSTM
-📌 Overview
+## Overview
 
 This project implements an end-to-end image captioning system that automatically generates natural language descriptions for images using deep learning. The system follows a classical encoder–decoder architecture combining convolutional neural networks for visual understanding and recurrent neural networks for language generation.
 
-🧠 Architecture
+ ## Architecture
 
 - Encoder: Pre-trained VGG16 CNN used to extract high-level visual features from images
 
@@ -13,11 +13,14 @@ This project implements an end-to-end image captioning system that automatically
 
 - Inference Optimization: Top-k sampling to reduce repetitive and generic captions
 
-📊 Evaluation
+## Model Flow Diagram
+<img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/f728cccf-9114-49a0-a1db-9b913b8dc930" />
+
+## Evaluation
 
 Model performance is evaluated using BLEU scores (BLEU-1 to BLEU-4) along with qualitative inspection of generated captions. The system effectively captures objects, scene context, and basic attributes, producing grammatically correct and meaningful descriptions.
 
-⚠️ Limitations
+## Limitations
 
 - Limited recognition of complex or dynamic actions
 
@@ -27,7 +30,7 @@ Model performance is evaluated using BLEU scores (BLEU-1 to BLEU-4) along with q
 
 - Dataset bias affecting caption diversity and higher-order BLEU scores
 
-🚀 Future Enhancements
+## Future Enhancements
 
 - Integrate attention mechanisms for improved visual focus
 
@@ -37,6 +40,6 @@ Model performance is evaluated using BLEU scores (BLEU-1 to BLEU-4) along with q
 
 - Incorporate object detection to improve counting accuracy
 
-🛠️ Tech Stack
+## Tech Stack
 
 Python, TensorFlow, Keras, CNN, LSTM, VGG16, Natural Language Processing (NLP), BLEU Score, NumPy, Matplotlib
